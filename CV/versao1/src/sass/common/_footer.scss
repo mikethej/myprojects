@@ -1,0 +1,51 @@
+$branco: white;
+$azulbotao1: #2a7d9a;
+$linha: #c2d4dc;
+$texto: #8e8e8e;
+$fundocaixa: #f9f9f9;
+$preto: black;
+
+
+footer{
+    background: url("../../../img/footer.png") center 0 no-repeat;    
+    background-size: cover;
+    height: 540px;
+    text-align: center;
+    .foot{
+        margin:0 auto;
+        width: 760px;
+        height: 470px;
+        padding-top: 50px;
+        p{
+            color: $branco;
+        }
+        form{
+            
+            input{
+                opacity: 0.5;
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 30px;
+                border: 2px solid $branco;
+                padding: 15px;
+                width: 400px;  
+            }
+            button{
+                margin-left: -5px;
+                border: 1px solid $branco;
+                color: $preto;
+                padding: 16px;
+                background-color: $branco;
+                border-top-right-radius: 30px;
+                border-bottom-right-radius: 30px;
+                &:hover{
+                    color: $branco;
+                    background-color: $azulbotao1;
+                } 
+            }
+        }
+    }
+    .iconefooter{
+        margin-left: 1250px;
+        margin-top: -100px;
+    }
+}

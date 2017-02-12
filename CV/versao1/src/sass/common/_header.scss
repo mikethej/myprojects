@@ -1,0 +1,34 @@
+$branco: #FFFFFF;
+$hover-box: #287996;
+$corhead: #f7f7f7;
+$sombrahead: #cfcfcf;
+$preto: black;
+
+header{
+    background-color:  $corhead;
+    height: 115px;
+    box-shadow: 5px 5px 5px $sombrahead;
+    .head{
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 25px;  
+    }
+    nav{
+        float: right;
+        li{
+            display: inline-block;
+        }
+        a{
+            font-size: 16px;
+            display: inline-block;
+            color: $preto;
+            text-decoration: none;
+            padding: 15px;
+            &:hover{
+                color: $branco;
+                background-color: $hover-box;
+                border-radius: 30px;
+            }
+        }      
+    }  
+}

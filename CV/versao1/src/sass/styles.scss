@@ -1,0 +1,17 @@
+$smartphone: '479px';
+$tablet: '767px';
+$desktop: '1023px';
+$bigscreen: '1200px';
+
+@import 'vendor/normalize';
+@import 'global/custom';
+
+@import 'common/header';
+
+@import 'common/main';
+
+@import 'common/footer';
+
+@import 'global/helper';
+
+@import 'pages/home';
