@@ -1,0 +1,59 @@
+#conteudo #botao {
+	text-align: center;
+}
+
+#conteudo #botao a {
+	margin:  25px auto;
+	display: block;
+	color: silver;
+	font-weight: bold;
+	font-size: 24px;
+	padding: 7px 7px;
+	background-color: #6E0000;
+	border: 5px solid #420000;
+	width: 200px;
+	height: 60px;
+	border-radius: 5px;
+}
+
+#modos {
+	display: table;
+	list-style-type: none;
+	margin: 30px auto 0px auto;;
+}
+
+#modos li{
+	float: left;
+	margin: 0px 40px 0px 60px;
+}
+
+#modos li > a {
+	font-size: 24px;
+}
+
+#modos li:first-child > a {
+	border-bottom: 3px solid blue;
+	border-radius: 5px;
+}
+
+#modos li:nth-child(2) > a {
+	border-bottom: 3px solid red;
+	border-radius: 5px;
+}
+#modos li:last-child > a {
+	border-bottom: 3px solid green;
+	border-radius: 5px;
+}
+
+#imgsingle {
+	margin: 0px 0px 20px 40px;
+}
+
+#imgmulti {
+	height: 276px;
+}
+#imgvs{
+	margin: 0px 0px 25px 40px;
+	height: 225px;
+}
+

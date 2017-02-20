@@ -1,0 +1,171 @@
+body,
+html {
+	min-height: 100%;
+	font-family: Verdana, sans-serif;
+}
+
+body {
+	background-image: url(../imgs/background1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: silver;
+}
+
+ul#menu, ul.submenu {
+	list-style-type: none;
+	display: table;
+	margin: 0px auto;
+	line-height: 30px;
+}
+
+ul#menu li {
+	width: 200px;
+	height: 30px;
+	margin-right: 4px;
+	text-align: center;
+	font-size: 22px;
+	font-family: Arial, sans-serif;
+	position: relative;
+	float: left;
+	z-index: 3;
+}
+
+ul#menu a {
+	display: block;
+	background-color: #001f3d;
+	color: #silver;
+	border: 2px solid #000d33;
+	border-radius: 5px;
+	width: 200px;
+	height: 30px;
+}
+
+ul#menu #self {
+	background-color: #000;
+}
+ul#menu .submenu a {
+	margin-top: 3px;
+}
+
+ul#menu li:hover > a {
+	background-color: #3333FF;
+}
+
+ul#menu li:hover a:hover {
+	background-color: #5959FF;
+}
+
+ul#menu ul.submenu {
+	display: none;
+	position: absolute;
+	z-index: 3;
+}
+
+ul#menu li:hover .submenu{
+	display: block;
+}
+
+#conteudo {
+	opacity: 0.8;
+	width: 70%;
+	background-color: #001f3d;
+	border: 10px solid #000d33;
+	border-radius: 10px;
+	margin: 25px auto;
+	color: silver;
+}
+
+#conteudo h1 {
+	font-family: Arial, sans-serif;
+	padding: 30px 0px 10px 40px;
+	font-size: 30px;
+}
+
+#conteudo h2 {
+	font-family: Arial, sans-serif;
+	padding: 30px 0px 0px 40px;
+	font-size: 26px;
+}
+
+#conteudo h3 {
+	font-family: Arial, sans-serif;
+	padding: 30px 0px 10px 60px;
+	font-size: 22px;
+}
+
+#conteudo p {
+	padding: 5px 0px 0px 20px;
+	font-size: 20px;
+}
+
+footer {
+	color: blue;
+}
+
+#logo {
+	width: 700px;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+
+.centered {
+	text-align: center;
+}
+
+#ship {
+	position: absolute;
+	width: 150px;
+	top: 60px;
+	left: 40px;
+}
+
+footer a {
+	background-color: black;
+	color: silver;
+	border: 2px solid silver;
+	border-radius: 5px;
+	padding: 10px;
+	width: 100px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+#conteudo > h2 a:hover {
+	text-decoration: underline;
+}
+body:hover { 
+  cursor:url('vtdiagne.cur'), auto 
+}
+
+.justify {
+	text-align: justify;
+	width: 85%;
+	margin-left: 5%;
+}
+
+#registo a {
+	text-align: center;
+	margin-left: 1100px;
+	background-color: black;
+	color: silver;
+	border: 2px solid silver;
+	border-radius: 5px;
+	padding: 10px;
+	width: 100px;
+	right: 20px;
+}

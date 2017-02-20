@@ -1,0 +1,26 @@
+#conteudo #botao {
+	text-align: center;
+}
+
+#conteudo #botao a {
+	margin: 40px auto;
+	display: block;
+	color: silver;
+	font-size: 24px;
+	padding: 7px 7px;
+	background-color: #6E0000;
+	border: 5px solid #420000;
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	font-weight: bold;
+
+}
+
+body {
+	background-image: url(../imgs/background2.jpg);
+}
+
+.strong {
+	font-weight: bold;
+}

@@ -1,0 +1,16 @@
+.profile_pic {
+	width: 24%;
+}
+
+#first {
+	margin-left: 110px;
+}
+
+#identity {
+	margin: 0px auto;
+	text-align: center;
+}
+
+#identity td {
+	padding: 20px 50px;
+}

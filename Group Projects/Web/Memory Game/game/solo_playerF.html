@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="descrição" content="Primeiro projeto de ITW">
+		<meta name="autor" content="Grupo 60">
+		<link type="text/css" rel="stylesheet" href="../css/main.css"/>
+		<link type="text/css" rel="stylesheet" href="../css/game_spec.css"/>
+		<script type="text/javascript" src="../jquery-2.1.3.min.js"></script>
+		<script src="../js/gameF.js"></script>
+		<title>Jogo da Memória | Jogar | 1 Jogador</title>
+	</head>
+
+	<body>
+		<img id="ship" src="../imgs/ship.png"/>
+		<header>
+			
+			<div class="centered"><img id="logo" src="../imgs/logo.png"/></div>
+			<nav>
+				<ul id="menu">
+					<li><a class ="strong" href="../index.html">Home</a></li>
+					<li><a class ="strong" href="modes.html">Jogar</a>
+						<ul class="submenu">
+							<li><a href="typeGameSP.html">1 Jogador</a></li>
+						</ul>
+					</li>
+					<li><a class ="strong" href="../scores/modes.html">Pontuações</a>
+						<ul class="submenu">
+							<li><a href="../scores/solo_player.html">1 Jogador</a></li>
+						</ul>
+					</li>
+					<li><a class ="strong" href="../help/modes.html">Ajuda</a>
+						<ul class="submenu">
+							<li><a href="../help/solo_player.html">1 Jogador</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+				
+	
+		<div id="conteudo">
+			<h2><a href="modes.html">Jogar</a></h2>
+		
+			<h3>1 Jogador</h3>
+		
+			<div id="layout">
+				<table id="grid">
+					<tr>
+						<th colspan="4"><p>Tempo > <span id="minutes">--</span>:<span id="seconds">--</span></p></th>
+					</tr>
+					<tr>
+						<td>
+							<div class="container">
+								<div id="cid00" class="card">
+									<figure class="front"><img src="../imgs/card_back.png"/></figure>
+									<figure class="back"></figure>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="container">
+								<div id="cid01" class="card">
+									<figure class="front"><img src="../imgs/card_back.png"/></figure>
+									<figure class="back"></figure>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="container">
+								<div id="cid02" class="card">
+									<figure class="front"><img src="../imgs/card_back.png"/></figure>
+									<figure class="back"></figure>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="container">
+								<div id="cid03" class="card">
+									<figure class="front"><img src="../imgs/card_back.png"/></figure>
+									<figure class="back"></figure>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="container">
+								<div id="cid10" class="card">
+									<figure class="front"><img src="../imgs/card_back.png"/></figure>
+									<figure class="back"></figure>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="container">
+								<div id="cid11" class="card">
+									<figure class="front"><img src="../imgs/card_back.png"/></figure>
+									<figure class="back"></figure>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="container">
+								<div id="cid12" class="card">
+									<figure class="front"><img src="../imgs/card_back.png"/></figure>
+									<figure class="back"></figure>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="container">
+								<div id="cid13" class="card">
+									<figure class="front"><img src="../imgs/card_back.png"/></figure>
+									<figure class="back"></figure>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="container">
+								<div id="cid20" class="card">
+									<figure class="front"><img src="../imgs/card_back.png"/></figure>
+									<figure class="back"></figure>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="container">
+								<div id="cid21" class="card">
+									<figure class="front"><img src="../imgs/card_back.png"/></figure>
+									<figure class="back"></figure>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="container">
+								<div id="cid22" class="card">
+									<figure class="front"><img src="../imgs/card_back.png"/></figure>
+									<figure class="back"></figure>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="container">
+								<div id="cid23" class="card">
+									<figure class="front"><img src="../imgs/card_back.png"/></figure>
+									<figure class="back"></figure>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="container">
+								<div id="cid30" class="card">
+									<figure class="front"><img src="../imgs/card_back.png"/></figure>
+									<figure class="back"></figure>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="container">
+								<div id="cid31" class="card">
+									<figure class="front"><img src="../imgs/card_back.png"/></figure>
+									<figure class="back"></figure>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="container">
+								<div id="cid32" class="card">
+									<figure class="front"><img src="../imgs/card_back.png"/></figure>
+									<figure class="back"></figure>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="container">
+								<div id="cid33" class="card">
+									<figure class="front"><img src="../imgs/card_back.png"/></figure>
+									<figure class="back"></figure>
+								</div>
+							</div>
+						</td>
+					</tr>
+					
+				</table>
+			</div>
+			<ul class="options">
+				<li><a href="../help/solo_player.html">Ajuda</a></li>
+				<li><a href="../scores/solo_player.html">A minha pontuação neste modo</a></li>
+			</ul>
+		</div>
+		
+		<footer><a href="../copyrights.html">Copyright &#169;</a></footer>
+	</body>
+</html>
