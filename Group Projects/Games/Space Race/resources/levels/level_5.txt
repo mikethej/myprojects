@@ -1,0 +1,19 @@
+SmartPlayer 225 525 90 10
+CrazyPlayer 300 525 90 10
+HumanPlayer 375 525 90
+StraightAheadPlayer 425 525 90 10
+SmartPlayer 425 525 90 10
+CrazyPlayer 300 475 90 10
+StraightAheadPlayer 525 525 90 10
+
+LooseAsteroid 425 250 270 10
+
+OrbitalAsteroid 225 75 20 9
+
+CrazyAsteroid 25 300 45 3
+
+WayPoints 2  325 25 
+             325 525  
+             
+WormHole 25 25 525 325 
+BlackHole 325 325 

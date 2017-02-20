@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="false" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="spacerace.Area" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/Area.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="278" x="173" y="30"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false" static="false"/>      
+      <operations public="true" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="spacerace.areas.Planet" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/areas/Planet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="24" width="56" x="355" y="106"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="spacerace.areas.EmptyArea" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/areas/EmptyArea.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="24" width="80" x="248" y="106"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="spacerace.areas.WormHole" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/areas/WormHole.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="24" width="72" x="535" y="108"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="spacerace.areas.WayPoint" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/areas/WayPoint.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="24" width="72" x="435" y="106"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="spacerace.areas.Dust" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/areas/Dust.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="24" width="40" x="171" y="106"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="spacerace.areas.BlackHole" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/areas/BlackHole.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="24" width="80" x="70" y="106"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="false">      
+      <attributes public="true" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+    sort-features="false" accessors="true" visibility="false">    
+    <attributes public="true" package="false" protected="false" private="false" static="false"/>    
+    <operations public="true" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="false"/>
+</class-diagram>

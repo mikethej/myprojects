@@ -1,0 +1,25 @@
+HumanPlayer 325 325 90
+
+Dust 225 225
+Dust 225 325
+Dust 225 425
+Dust 325 225
+Dust 325 425
+Dust 425 225
+Dust 425 325
+Dust 425 425
+
+WormHole  75 75 525 525
+Planet    300 75
+BlackHole 75 300
+WormHole  525 75 75 525
+Planet    525 300
+BlackHole 300 525
+
+WayPoints 4 125 325
+            25 25
+            325 125
+            225 475   
+
+
+

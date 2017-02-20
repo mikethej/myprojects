@@ -1,0 +1,26 @@
+Planet 50 50 
+Planet 200 50 
+Planet 250 50 
+Planet 300 50 
+Planet 300 100 
+Planet 300 150 
+Planet 300 200 
+Planet 300 250 
+Planet 300 300 
+Planet 300 300 
+Planet 250 300 
+Planet 100 300 
+Planet 50 300 
+Planet 50 250 
+Planet 50 200 
+Planet 50 150 
+Planet 50 100 
+WayPoints 3 150 150 450 450 200 200
+CrazyPlayer 200 200 180 10
+SmartPlayer 500 500 0 4
+StraightAheadPlayer 200 500 0 4
+WormHole 150 125 375 425
+CrazyAsteroid 25 25 0 10
+CrazyAsteroid 325 25 0 10         
+CrazyAsteroid 525 25 0 10  
+

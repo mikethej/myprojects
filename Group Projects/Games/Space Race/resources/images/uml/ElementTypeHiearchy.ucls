@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="false" automaticImage="PNG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="false" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="spacerace.GameElement" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/GameElement.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="190" x="158" y="-9"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false" static="false"/>      
+      <operations public="true" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="spacerace.MovingElement" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/MovingElement.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="147" width="197" x="211" y="182"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false" static="false"/>      
+      <operations public="true" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="spacerace.DynamicElement" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/DynamicElement.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="85" width="157" x="21" y="113"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false" static="false"/>      
+      <operations public="true" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="spacerace.Asteroid" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/Asteroid.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="24" width="96" x="112" y="379"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="spacerace.Decoration" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/Decoration.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="24" width="114" x="42" y="229"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="spacerace.Area" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/Area.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="46" width="282" x="194" y="116"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false" static="false"/>      
+      <operations public="true" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="spacerace.Player" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="100" width="198" x="244" y="350"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false" static="false"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="spacerace.players.HumanPlayer" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/players/HumanPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="282" x="63" y="471"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false" static="false"/>      
+      <operations public="true" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="spacerace.AIPlayer" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/AIPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="24" width="116" x="360" y="469"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="spacerace.GameState" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/GameState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="605" y="114"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="true" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="spacerace.GameLevelReader" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/GameLevelReader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="221" x="494" y="246"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="spacerace.Constants" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/Constants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="220" x="495" y="301"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="false" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="spacerace.Coord2D" project="pco_ppo_project2_mine" 
+    file="/pco_ppo_project2_mine/src/spacerace/Coord2D.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="210" width="223" x="494" y="404"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="false" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="15">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="16">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="17">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="false" private="false" static="false"/>    
+    <operations public="true" package="false" protected="true" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,56 @@
+HumanPlayer 460 300 270
+SecondHumanPlayer 200 300 270
+
+Planet 25 145
+Planet 25 85
+Planet 25 25
+Planet 85 25
+Planet 145 25
+
+Planet 575 455
+Planet 575 515
+Planet 575 575
+Planet 515 575
+Planet 455 575
+
+Planet 25 455
+Planet 25 515
+Planet 25 575
+Planet 85 575
+Planet 145 575
+
+Planet 575 145
+Planet 575 85
+Planet 575 25
+Planet 515 25
+Planet 455 25
+
+WayPoints 5 300 300
+			85 85 
+            515 515
+            85 515
+            515 85
+
+Dust 145 85
+Dust 145 145
+Dust 85 145
+
+Dust 515 455
+Dust 455 455
+Dust 455 515
+
+Dust 145 515
+Dust 145 455
+Dust 85 455
+
+Dust 515 145
+Dust 455 145
+Dust 455 85 
+
+OrbitalAsteroid 85 300 20 9
+OrbitalAsteroid 300 85 20 9
+OrbitalAsteroid 515 300 20 9
+OrbitalAsteroid 300 515 20 9
+
+WormHole  25 300 575 300
+WormHole  300 575 300 25
