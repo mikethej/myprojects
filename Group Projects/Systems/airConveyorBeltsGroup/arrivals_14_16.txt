@@ -1,0 +1,11 @@
+Airport: Neverland
+Number of belts: 3
+Day: 06:11:2014
+Period: from 14:00 to 16:00
+Arrivals:
+KLM75, Amsterdam, 14:35, 60, 50
+AF111, Paris, 14:20, 50, 64
+LH333, Frankfurt, 14:10, 112, 203
+KLM71, Madrid, 14:55, 120, 100
+TAP103, Salvador, 15:20, 174, 210
+LH123, Berlin, 15:10, 115, 210

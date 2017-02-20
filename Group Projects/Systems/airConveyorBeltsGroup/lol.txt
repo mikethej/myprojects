@@ -1,0 +1,21 @@
+Airport: Neverland
+Number of belts: 3
+Day: 06:11:2014
+Period: from 14:00 to 16:00
+Belts: 
+B1, 14:20, 14:29, (AF111, Paris, 14:20, 50, 64)
+B1, 14:35, 14:42, (KLM75, Amsterdam, 14:35, 60, 50)
+B1, 15:10, 15:41, (LH123, Berlin, 15:10, 115, 210)
+B2, 15:20, 15:51, (TAP103, Salvador, 15:20, 174, 210)
+B3, 14:10, 14:40, (LH333, Frankfurt, 14:10, 112, 203)
+B3, 14:55, 15:10, (KLM71, Madrid, 14:55, 120, 100)
+Flights: 
+(LH333, Frankfurt, 14:10, 112, 203), B3, 15 min
+(AF111, Paris, 14:20, 50, 64), B1, 4 min
+(KLM75, Amsterdam, 14:35, 60, 50), B1, 3 min
+(KLM71, Madrid, 14:55, 120, 100), B3, 7 min
+(LH123, Berlin, 15:10, 115, 210), B1, 15 min
+(TAP103, Salvador, 15:20, 174, 210), B2, 15 min
+Global: 
+Average delivery time = 12
+Longest delivery time = 31
