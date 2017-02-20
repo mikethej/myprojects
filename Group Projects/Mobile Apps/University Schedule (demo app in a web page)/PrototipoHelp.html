@@ -1,0 +1,252 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 9 - http://www.wysiwygwebbuilder.com">
+<style type="text/css">
+body
+{
+   margin: 0;
+   padding: 0;
+   background-color: #FFFFFF;
+   color: #000000;
+}
+</style>
+<link href="cupertino/jquery.ui.all.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+</style>
+<style type="text/css">
+#Image1
+{
+   border: 0px #000000 solid;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#Image12
+{
+   border: 0px #000000 solid;
+}
+#Image11
+{
+   border: 0px #000000 solid;
+}
+#Image5
+{
+   border-width: 0;
+}
+#jQueryButton1
+{
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+}
+#wb_jQueryButton1 .ui-button-text
+{
+   padding: 0;
+   line-height: 68px;
+}
+#jQueryButton1
+{
+   color: #2779AA;
+}
+#jQueryButton1 :hover
+{
+   color: #0070A3;
+}
+#jQueryButton1 :active
+{
+   color: #FFFFFF;
+}
+#wb_jQueryButton1 .ui-button-text-icon .ui-button-icon-primary,
+#wb_jQueryButton1 .ui-button-text-icons .ui-button-icon-primary,
+#wb_jQueryButton1 .ui-button-icons-only .ui-button-icon-primary
+{
+   left: auto;
+   right: 10px;
+}
+#wb_jQueryButton1 .ui-button-text-icons .ui-button-icon-secondary,
+#wb_jQueryButton1 .ui-button-icons-only .ui-button-icon-secondary
+{
+   right: auto;
+   left: 10px;
+}
+#Image4
+{
+   border: 0px #000000 solid;
+}
+#Image3
+{
+   border: 0px #000000 solid;
+}
+#Image2
+{
+   border: 0px #000000 solid;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: center;
+}
+#wb_Text4 div
+{
+   text-align: center;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: center;
+}
+#wb_Text5 div
+{
+   text-align: center;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: center;
+}
+#wb_Text3 div
+{
+   text-align: center;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: center;
+}
+#wb_Text6 div
+{
+   text-align: center;
+}
+#Image10
+{
+   border: 0px #000000 solid;
+}
+</style>
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="jquery.ui.core.min.js"></script>
+<script type="text/javascript" src="jquery.ui.widget.min.js"></script>
+<script type="text/javascript" src="jquery.ui.button.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+   $("#jQueryButton1").button();
+});
+</script>
+</head>
+<body>
+<div id="wb_Image1" style="position:absolute;left:0px;top:0px;width:323px;height:502px;z-index:0;">
+<img src="images/samsung_galaxy_s_iii_mini_8gb_smartphone_pebble_blue.jpg" id="Image1" alt="" style="width:323px;height:502px;"></div>
+<a href="./PrototipoFinal.html"><img src="images/img0053.png" id="MergedObject8" alt="" title="" style="position:absolute;left:33px;top:67px;width:59px;height:67px;border-width:0;z-index:1"></a>
+<div id="wb_Text2" style="position:absolute;left:104px;top:73px;width:124px;height:54px;z-index:2;text-align:left;">
+<span style="color:#000000;font-family:Arial;font-size:24px;">University<br>Schedule</span></div>
+<div id="Html2" style="position:absolute;left:212px;top:73px;width:92px;height:54px;z-index:3">
+<html>
+<head>
+<title>Untitled Document</title>
+<script language="javascript">
+function escreveHora(){
+    var data=new Date();         // pega data completa
+	
+	hora=data.getHours();
+	    if (hora<10){
+		   hora="0"+hora;
+		}
+	minuto=data.getMinutes();
+	    if (minuto<10){
+		   minuto="0"+minuto;
+		}
+	segundo=data.getSeconds();
+	    if (segundo<10){
+		   segundo="0"+segundo;
+		}
+	document.getElementById("insereHora").innerHTML=(hora+":"+minuto+":"+segundo);   // escreve no span a hora completa
+	
+	setTimeout("escreveHora()",1000)
+}
+
+
+</script>
+</head>
+
+<body onLoad="escreveHora();">
+<span id="insereHora"></span>
+</body>
+</html></div>
+<div id="wb_Image12" style="position:absolute;left:42px;top:440px;width:62px;height:32px;z-index:4;">
+<a href="./PrototipoFinal.html"><img src="images/wwb_img14.jpg" id="Image12" alt="" style="width:62px;height:32px;"></a></div>
+<div id="wb_Image11" style="position:absolute;left:222px;top:439px;width:66px;height:32px;z-index:5;">
+<a href="./PrototipoFinal.html"><img src="images/wwb_img13.jpg" id="Image11" alt="" style="width:66px;height:32px;"></a></div>
+<div id="wb_Image5" style="position:absolute;left:97px;top:69px;width:187px;height:60px;z-index:6;">
+<img src="images/img0052.png" id="Image5" alt="" style="width:187px;height:60px;"></div>
+<div id="wb_jQueryButton1" style="position:absolute;left:67px;top:147px;width:199px;height:68px;z-index:7;">
+<a href="./PrototipoFinal.html" id="jQueryButton1" style="width:100%;height:100%;">Clique aqui para sair do help</a></div>
+<div id="wb_Image4" style="position:absolute;left:125px;top:305px;width:94px;height:125px;z-index:8;">
+<img src="images/wwb_img29.jpg" id="Image4" alt="" style="width:94px;height:125px;"></div>
+<div id="wb_Image3" style="position:absolute;left:216px;top:304px;width:84px;height:125px;z-index:9;">
+<img src="images/wwb_img28.jpg" id="Image3" alt="" style="width:84px;height:125px;"></div>
+<div id="wb_Image2" style="position:absolute;left:23px;top:304px;width:105px;height:125px;z-index:10;">
+<img src="images/wwb_img27.jpg" id="Image2" alt="" style="width:105px;height:125px;"></div>
+<div id="wb_Text4" style="position:absolute;left:135px;top:324px;width:73px;height:28px;text-align:center;z-index:11;">
+<span style="color:#000000;font-family:Arial;font-size:11px;">Sair da aplicação</span></div>
+<div id="wb_Text5" style="position:absolute;left:223px;top:323px;width:74px;height:42px;text-align:center;z-index:12;">
+<span style="color:#000000;font-family:Arial;font-size:11px;">voltar à página anterior</span></div>
+<div id="wb_Text3" style="position:absolute;left:32px;top:316px;width:90px;height:84px;text-align:center;z-index:13;">
+<span style="color:#000000;font-family:Arial;font-size:11px;">Definições, contém opções adicionais (quando as há) como, adicionar, eliminar e editar</span></div>
+<div id="wb_Text1" style="position:absolute;left:138px;top:81px;width:121px;height:28px;text-align:center;z-index:14;">
+<span style="color:#000000;font-family:Arial;font-size:11px;">Botao Home para voltar à página inicial</span></div>
+<div id="wb_Text6" style="position:absolute;left:37px;top:228px;width:255px;height:56px;text-align:center;z-index:15;">
+<span style="color:#000000;font-family:Arial;font-size:11px;">Ps: Quando são feitas alterações, a aplicação vai para a uma página tipo como é que ficava com a alteração, pois os dados não são gravados<br>Have Fun e dá a tua opinião =)</span></div>
+
+<div id="wb_Image10" style="position:absolute;left:107px;top:438px;width:110px;height:36px;z-index:17;">
+<a href="./3ªIteração.html"><img src="images/wwb_img12.jpg" id="Image10" alt="" style="width:110px;height:36px;"></a></div>
+</body>
+</html>

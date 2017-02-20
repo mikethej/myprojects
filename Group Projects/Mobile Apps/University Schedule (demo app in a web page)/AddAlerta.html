@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 9 - http://www.wysiwygwebbuilder.com">
+<style type="text/css">
+body
+{
+   margin: 0;
+   padding: 0;
+   background-color: #FFFFFF;
+   color: #000000;
+}
+</style>
+<style type="text/css">
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+</style>
+<style type="text/css">
+#Image1
+{
+   border: 0px #000000 solid;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#Image11
+{
+   border: 0px #000000 solid;
+}
+#Image12
+{
+   border: 0px #000000 solid;
+}
+#GoMenu3_combobox, #GoMenu3_button
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#Image10
+{
+   border: 0px #000000 solid;
+}
+</style>
+<script type="text/javascript" src="wwb9.min.js"></script>
+</head>
+<body>
+<div id="wb_Image1" style="position:absolute;left:0px;top:0px;width:323px;height:502px;z-index:0;">
+<img src="images/samsung_galaxy_s_iii_mini_8gb_smartphone_pebble_blue.jpg" id="Image1" alt="" style="width:323px;height:502px;"></div>
+<div id="wb_Text2" style="position:absolute;left:104px;top:73px;width:124px;height:54px;z-index:1;text-align:left;">
+<span style="color:#000000;font-family:Arial;font-size:24px;">University<br>Schedule</span></div>
+<div id="Html2" style="position:absolute;left:212px;top:73px;width:92px;height:54px;z-index:2">
+<html>
+<head>
+<title>Untitled Document</title>
+<script language="javascript">
+function escreveHora(){
+    var data=new Date();         // pega data completa
+	
+	hora=data.getHours();
+	    if (hora<10){
+		   hora="0"+hora;
+		}
+	minuto=data.getMinutes();
+	    if (minuto<10){
+		   minuto="0"+minuto;
+		}
+	segundo=data.getSeconds();
+	    if (segundo<10){
+		   segundo="0"+segundo;
+		}
+	document.getElementById("insereHora").innerHTML=(hora+":"+minuto+":"+segundo);   // escreve no span a hora completa
+	
+	setTimeout("escreveHora()",1000)
+}
+
+
+</script>
+</head>
+
+<body onLoad="escreveHora();">
+<span id="insereHora"></span>
+</body>
+</html></div>
+<div id="wb_Image11" style="position:absolute;left:222px;top:439px;width:66px;height:32px;z-index:3;">
+<a href="./AlertasF.html"><img src="images/wwb_img13.jpg" id="Image11" alt="" style="width:66px;height:32px;"></a></div>
+<div id="wb_Image12" style="position:absolute;left:42px;top:440px;width:62px;height:32px;z-index:4;">
+<img src="images/wwb_img14.jpg" id="Image12" alt="" style="width:62px;height:32px;"></div>
+<a href="./PrototipoFinal.html"><img src="images/img0053.png" id="MergedObject8" alt="" title="" style="position:absolute;left:33px;top:67px;width:59px;height:67px;border-width:0;z-index:5"></a>
+<div style="position:absolute;left:38px;top:170px;z-index:6;">
+   <form name="GoMenuForm7" action="">
+      <select id="GoMenu3_combobox" name="GoMenu" onchange="OnGoMenuFormLink(this)" style="position:absolute;left:0px;top:0px;width:250px;height:20px;">
+         <option class="_self" value="#" selected>Seleccione um tipo de alerta</option>
+         <option class="_self" value="./AddAlertaTeste.html">Teste</option>
+         <option class="_self" value="./AddAlertaTPC.html">TPC</option>
+         <option class="_self" value="./AddAlertaTrabalho.html">Trabalho</option>
+         <option class="_self" value="./AddAlertaCompromisso.html">Compromisso</option>
+      </select>
+   </form>
+</div>
+<div id="wb_Text1" style="position:absolute;left:37px;top:138px;width:247px;height:23px;z-index:7;text-align:left;">
+<span style="color:#000000;font-family:Arial;font-size:20px;">Tipo de Alerta</span></div>
+<div id="wb_Image10" style="position:absolute;left:107px;top:438px;width:110px;height:36px;z-index:8;">
+<a href="./3ªIteração.html"><img src="images/wwb_img12.jpg" id="Image10" alt="" style="width:110px;height:36px;"></a></div>
+</body>
+</html>
