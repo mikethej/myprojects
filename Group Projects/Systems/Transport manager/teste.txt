@@ -1,0 +1,111 @@
+User: 
+
+joao
+
+Password: 
+
+123456789
+
+Bem vindo joao
+O que deseja fazer?
+1 - Novo Pedido
+
+1
+
+Insira o id do cliente: 
+
+8
+
+Name    ID Telefone
+Joaquim 8 918888884
+Escolha a morada de origem: 
+   Paihs    Cidade Freguesia Rua Porta Andar Codigo Postal
+1- Portugal Lisboa Ajuda 12 36 1drt 1300-211 
+2- Portugal Algarve Albufeira D.jose 67 4esq 3234-653 
+
+1
+
+Escolha a morada de destino: 
+   Paihs    Cidade Freguesia Rua Porta Andar Codigo Postal
+1- Portugal Braga Algures ze 6 5drt 2564-159 
+2- Portugal Porto Boavista xp 2 3esq 5926-156 
+
+2
+
+O que quer transportar?
+
+copos
+
+Insira a data de entrega (dd mm yy)
+
+3 5 10
+
+Escolha uma opcao
+1 - Ver lista de pedidos
+2 - Ver fila de espera
+3 - Motoristas Disponiveis
+4 - Viaturas disponiveis
+5 - Associar ordem
+6 - Sair
+
+1
+
+23 Joao Moveis 12/2/10
+53 Maria Fogao 23/3/10
+12 Miguel Cadeiras 2/4/10
+Escolha uma opcao
+1 - Ver lista de pedidos
+2 - Ver fila de espera
+3 - Motoristas Disponiveis
+4 - Viaturas disponiveis
+5 - Associar ordem
+6 - Sair
+
+2
+
+8 Joaquim copos 3/5/10 Por_enviar
+Escolha uma opcao
+1 - Ver lista de pedidos
+2 - Ver fila de espera
+3 - Motoristas Disponiveis
+4 - Viaturas disponiveis
+5 - Associar ordem
+6 - Sair
+
+3
+
+Disponivel 325 Ze
+Disponivel 666 Manel
+Escolha uma opcao
+1 - Ver lista de pedidos
+2 - Ver fila de espera
+3 - Motoristas Disponiveis
+4 - Viaturas disponiveis
+5 - Associar ordem
+6 - Sair
+
+4
+
+45-FD-89 Disponivel
+95-JF-26 Disponivel
+Escolha uma opcao
+1 - Ver lista de pedidos
+2 - Ver fila de espera
+3 - Motoristas Disponiveis
+4 - Viaturas disponiveis
+5 - Associar ordem
+6 - Sair
+
+5
+
+Done
+Escolha uma opcao
+1 - Ver lista de pedidos
+2 - Ver fila de espera
+3 - Motoristas Disponiveis
+4 - Viaturas disponiveis
+5 - Associar ordem
+6 - Sair
+
+6
+Fim
