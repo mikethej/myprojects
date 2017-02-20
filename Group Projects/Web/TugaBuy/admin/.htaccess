@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Acesso Autenticado"
+AuthUserFile /home/asw46586/public_html/TugaBuy/.htpasswd
+Require valid-user

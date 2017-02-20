@@ -1,0 +1,92 @@
+                                SOAPy
+                             release 0.1
+                            April 26, 2001
+
+INTRODUCTION
+------------
+
+SOAPy is a library for accessing SOAP(1)-based web services from Python
+applications.  Given either a WSDL(2) or SDL(3) document, SOAPy
+discovers the published API for a web service and exposes it to Python
+applications as transparently as possible.  SOAPy is designed to
+support WSDL 1.0 and SOAP 1.1, and whatever version of SDL is being
+used to power Microsoft's TerraService web service. :)  
+
+REQUIREMENTS
+------------
+
+SOAPy requires Python 1.5 or above.  For HTTPS and Unicode support,
+Python 2.0 or above is required.  SOAPy has been tested on Python
+1.5.2 and Python 2.0 (on Linux).
+
+SOAPy uses the xml.dom XML parsing interface and, currently, the
+PyExpat XML parser.  The simplest way to get this functionality is to use
+the PyXML package, which can be found at:
+	http://pyxml.sourceforge.net/
+
+SOAPy has been tested with version 0.6.5 of PyXML.
+
+Note that if you have the 4Suite package installed, the PyXML package
+may contain files which conflict; however, 4Suite doesn't seem to have
+all the necessary pieces.  This might break stuff, so be careful!
+
+Finally, for installation on Python 1.5.2 or earlier, SOAPy requires
+the Distutils module, which can be found at:
+	http://www.python.org/sigs/distutils-sig/
+
+Distutils is included in Python 1.6 and above.
+
+INSTALLATION
+------------
+
+Once you have the above packages installed, untar the source
+distribution and type
+
+python setup.py install
+
+USAGE
+-----
+
+See the doc/examples/README.txt file for information.
+
+NOTES
+-----
+(1) SOAP -- Simple Object Access Protocol.  SOAP is an XML standard
+for remote procedure calls which is becoming widely used for web-based
+services.  For example, Microsoft .NET services are based on SOAP.
+Additional information on SOAP can be found at the following URLs:
+
+SOAP 1.1 Specification (W3C Note 8 May 2000):
+	http://www.w3.org/TR/SOAP/
+
+Develop.com SOAP resource page:
+	http://www.develop.com/soap/
+
+Apache SOAP (SOAP implementation for Java, based on IBM SOAP4J):
+	http://xml.apache.org/soap/
+
+Userland's SOAP Weblog:
+	http://soap.weblogs.com/
+
+Microsoft's SOAP resource page:
+	http://msdn.microsoft.com/soap/default.asp
+
+(2) WSDL -- Web Services Description Language.  WSDL is an XML-based
+standard for describing the API of web services which can be accessed
+via SOAP or other methods (SOAPy only handles SOAP access).  Additional
+information on WSDL can be found at the following URLs:
+
+Specification of WSDL 1.0 (25 September 2000):
+	http://www-106.ibm.com/developerworks/library/w-wsdl.html
+
+Using WSDL in SOAP applications (article in IBM Developer Works,
+November 2000):
+	http://www-106.ibm.com/developerworks/library/ws-soap/?dwzone=components
+
+(3) SDL -- Services Description Language.  SDL is an older XML-based
+standard for describing web services APIs.  It is used primarily by
+Microsoft's .NET toolkit, which I understand is being moved towards
+WSDL.
+
+An example SDL document can be found at:
+	http://terraserver.microsoft.net/TerraService.asmx?SDL
