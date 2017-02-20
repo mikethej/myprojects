@@ -1,0 +1,272 @@
+* {
+  font-family: Calibri;
+}
+
+.row {
+  display: inline-block;
+}
+
+body {
+	background: url('http://appserver.di.fc.ul.pt/~asw45103/aula_codeigniter/images/background.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 63%;
+	margin: 1% auto;
+}
+
+article .thumbnail {
+  width:auto;
+  margin-bottom: 7px;
+}
+
+header {
+  height: 120px;
+  background-color: #404040;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+header li {
+  display: inline;
+  vertical-align: middle;
+}
+
+.logoimg {
+  width:100px;
+  height:100px;
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 4px;
+}
+
+#afterlog {
+  float: right;
+  margin-right: 2%;
+}
+
+#afterlog li {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+
+#afterlog a:link {
+  color: white;
+  text-decoration: none;
+}
+
+#afterlog a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#nav-button li{
+  display: block;
+}
+
+.photo {
+  width: 80%;
+  border-radius: 5px;
+}
+
+#login{
+  float: right;
+  padding-top: 10px;
+  padding-right: 10px;
+  margin: 4px;
+
+}
+
+.NavBar {
+  background-color: #F0F0F0;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.NavBar li a {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.NavBar li a:link {
+  color: #404040;
+  text-decoration: none;
+}
+
+.NavBar li a:visited {
+  color: #404040;
+  text-decoration: none;
+}
+
+.NavBar li a:hover{
+  color: #A0A0A0;
+  text-decoration: none;
+}
+
+nav li {
+    background-color: #F0F0F0;
+    font-size: 20px;  
+    display: inline;
+    text-align: center;
+}
+
+#m {
+  background-color: #A0A0A0;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.content {
+    background-color: #404040;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+    height:500px;
+}
+
+.some {
+  background-color: #404040;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: justify;
+}
+
+section .list {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+tr, th , td {
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+#log {
+  margin-top: 10%;
+  float: left;
+  width: 50%;
+  margin-right: 2%;
+}
+
+form {
+  border: 1px solid #404040;
+  border-radius: 5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 110%;
+  overflow: hidden;
+  margin-top: -10%;
+  background-color: white;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding-left: 0;
+}
+
+input {
+  border-radius: 5px;
+  font-size: 80%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.account-action {
+  background: #D3D3D3;
+  border-top: 1px solid black;
+  padding: 15px;
+  color: #404040;
+  font-weight: bold;
+}
+
+.account-action .btn {
+  background: linear-gradient(#404040, #404040);
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 16px;
+}
+.account-action1 {
+  background: #D3D3D3;
+  border-top: 1px solid black;
+  padding: 15px;
+  color: #404040;
+  font-weight: bold;
+  text-align: center;
+}
+
+.account-action1 .btn {
+  background: linear-gradient(#404040, #404040);
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 16px;
+}
+
+#info {
+  max-height: 460px;
+  overflow: auto;
+}
+
+#tab-content {
+  margin-right: 3%;
+}
+
+#reg {
+  margin-top: 0%;
+  margin-left: 3%;
+  width: 90%;
+}
+
+
+#regista {
+  max-height: 550px;
+  overflow: auto;
+}
+
+.account-info {
+  padding: 5% 5% 5% 5%;
+}
+
+.account-info label {
+  color: #404040;
+  font-weight: bold;
+}
+.account-info input {
+  background: #fff;
+  border: 1px solid #404040;
+  color: #636466;
+  padding: 6px;
+  width: 76%;
+  margin-top: 2%;
+}
+
+#open {
+  padding-top: 5%;
+}
+
+#sec { 
+  display:none;
+  padding-top: 5%;	
+}
+
+#inputreg {
+  width: 89%;
+  margin-left: 2%;
+  
+}
+
+
+

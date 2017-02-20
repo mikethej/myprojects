@@ -1,0 +1,354 @@
+* {
+	font-family: Calibri;
+}
+
+body {
+	background: url('http://appserver.di.fc.ul.pt/~asw45103/aula_codeigniter/images/background.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 63%;
+	margin: 1% auto;
+}
+
+.row {
+	display: inline-block;
+}
+
+article .thumbnail {
+	width:auto;
+	margin-bottom: 7px;
+}
+
+header {
+	height: 120px;
+	background-color: #404040;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+header li {
+	display: inline;
+	vertical-align: middle;
+}
+
+.logoimg {
+	width:100px;
+	height:100px;
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin: 4px;
+}
+
+#afterlog {
+	float: right;
+	margin-right: 2%;
+}
+
+#afterlog li {
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+}
+
+#afterlog a:link {
+	color: white;
+	text-decoration: none;
+}
+
+#afterlog a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+#nav-button li{
+	display: block;
+}
+
+.photo {
+	width: 80%;
+	border-radius: 5px;
+}
+
+#login{
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+	margin: 4px;
+
+}
+
+.NavBar {
+	background-color: #F0F0F0;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.NavBar li a {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.NavBar li a:link {
+	color: #404040;
+	text-decoration: none;
+}
+
+.NavBar li a:visited {
+	color: #404040;
+	text-decoration: none;
+}
+
+.NavBar li a:hover{
+	color: #A0A0A0;
+	text-decoration: none;
+}
+
+nav li {
+  	background-color: #F0F0F0;
+    font-size: 20px;	
+    display: inline;
+    text-align: center;
+}
+
+#m {
+	background-color: #A0A0A0;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+	cursor: default;
+}
+
+.content {
+  	background-color: #404040;
+  	padding-top: 0.8%;
+  	padding-bottom: 0.8%;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	color: white;
+	max-height: 470px;
+	overflow: auto;
+}
+
+.some {
+  	background-color: #404040;
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: justify;
+}
+
+.cria {
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-bottom: 2%;
+}
+
+.cria a{
+	background-color: #F0F0F0;
+	color: #404040;
+	padding: 2% 2%;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.cria a:link {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.cria a:visited {
+	color: #404040;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+section .list {
+  padding-left: 15px;
+  padding-top: 15px;
+  margin-bottom: 2%;
+}
+
+section .list button {
+	cursor: pointer;
+}
+
+#entrar {
+	background-color: #F0F0F0;
+	color: #404040;
+	padding: 15%;
+	font-weight: bold;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+tr, th , td {
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+.account-action {
+  background: #D3D3D3;
+  border-top: 1px solid black;
+  padding: 15px;
+  color: #404040;
+  font-weight: bold;
+}
+
+.account-action .btn {
+  background: linear-gradient(#404040, #404040);
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 16px;
+}.account-info {
+  padding: 5% 5% 5% 5%;
+}
+
+.account-info label {
+  color: #404040;
+  font-weight: bold;
+}
+.account-info input {
+  background: #fff;
+  border: 1px solid #404040;
+  color: #636466;
+  padding: 6px;
+  width: 76%;
+  margin-top: 2%;
+}
+
+#gamecreate {
+	display:none;
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-bottom: 2%;
+	
+}
+
+#cria{
+	margin-left: 3%;
+	background-color: #F0F0F0;
+	color: #404040;
+	padding: 2% 2%;
+	font-weight: bold;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#tit {
+	text-align: center;
+}
+
+#information {
+	margin-left: 17%;
+}
+
+.content ul {
+	margin-top: 5%;
+}
+
+.content ul li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.content #logo {
+	list-style-type: none;
+	margin-left: 2%;
+}
+
+#logo img {
+	width: 350px;
+	border-radius: 50px;
+}
+
+#gamei li{
+	margin-top: 5%;
+	display: inline-block;
+	vertical-align: top;
+}
+#map {
+	text-align: left;
+	width: 300px;
+	margin-left: 2%;
+	margin-right: 15%;
+}
+
+#gameinfo {
+	margin-left: 20%;
+}
+
+#sair {
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+#sair a{
+	padding-right: 25%;
+	padding-left: 25%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #F0F0F0;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+#sair a:link {
+	color: #404040;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#sair a:visited {
+	color: #404040;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#sairjogo {
+	margin-left: 25%;
+	margin-right: 30%;
+}
+
+#estat {
+	display: inline;
+	vertical-align: middle;
+}
+
+#estat1 {
+	margin-left: -5%;	
+	margin-right: 1%;
+}
+
+.podium img{
+	width: 100%;
+	border-radius: 25px;
+}
+
+.podium {
+	margin-top: 5%; 
+	margin-bottom: 5%; 
+	width: 50%;
+}
+
+#top {
+	margin-left: 38%;
+}
+
+#target img{
+	width: 100%;
+	border-radius: 25px;
+}
+
+#target {
+	margin-top: 5%; 
+	margin-bottom: 5%; 
+	width: 35%;
+}
