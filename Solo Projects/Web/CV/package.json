@@ -1,0 +1,23 @@
+{
+  "name": "andremiguelaa-frontend-base",
+  "version": "0.0.1",
+  "author": "André Ascensão <andremiguelaa@gmail.com>",
+  "dependencies": {
+    "gulp": "3.9.0",
+    "gulp-watch": "4.3.4",
+    "gulp-rename": "1.2.2",
+    "gulp-replace": "0.5.4",
+    "gulp-sass": "2.0.4",
+    "jquery": "1.11.3",
+    "normalize.css": "3.0.3",
+    "gulp-modernizr": "1.0.0-alpha",
+    "gulp-connect-php": "0.0.5",
+    "browser-sync": "2.9.3"
+  },
+  "private": true,
+  "analyze": true,
+  "devDependencies": {
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.2.0"
+  }
+}
